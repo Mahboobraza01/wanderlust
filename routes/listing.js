@@ -9,6 +9,11 @@ const multer  = require('multer')
 const {storage}=require("../cloudConfig.js");
 const upload = multer({storage});
 
+router.get('/', (req, res) => {
+  res.send('Wanderlust server is live! Go to /listings for home');
+  // Ya res.redirect('/listings');
+});
+
 router
 .route("/")
 //Index Route
