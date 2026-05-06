@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Wanderlust — MERN Travel Web App</h1>
+<h1 align="center">🚀 Wanderlust — A MERN Stack Web App</h1>
 
 <p align="center">
   ✈️ A full-featured travel booking and exploration web app built with <strong>Node.js</strong>, <strong>Express.js</strong>, <strong>MongoDB</strong>, <strong>EJS</strong>, and <strong>Cloudinary</strong> — featuring dynamic UI, authentication, cloud image uploads, and MVC architecture.
@@ -12,7 +12,6 @@
 - 💬 Flash messages for real-time UI feedback
 - 📦 Modular MVC architecture: **Controllers, Models, Routes, Views**
 - 🌍 Dynamic pages rendered with **EJS**
-- ⚙️ Deploy-ready with **Netlify** and `serverless-http`
 
 ---
 
@@ -32,7 +31,6 @@ WanderNest/
 ├── cloudConfig.js     # Cloudinary setup
 ├── middleware.js      # Auth & error handlers
 ├── schema.js          # Joi validation schemas
-├── netlify.toml       # Netlify config
 ├── .env               # Environment variables
 └── README.md          # You're here!
 ```
@@ -68,7 +66,7 @@ SESSION_SECRET=your_custom_secret
 npm start
 ```
 
-Go to 👉 [http://localhost:8080](http://localhost:8080)
+Go to 👉 https://wanderlust-2i83.onrender.com/listings
 
 ## 🧠 Concepts You'll Learn
 
